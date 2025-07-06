@@ -11,7 +11,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'app')))
 from app.db import Base
 from app.core.config import settings
 from app.models import user
-
+from app.models import agent
 
 
 # this is the Alembic Config object, which provides
